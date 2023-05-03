@@ -1,0 +1,47 @@
+
+#navbar {
+
+  width: 100vw;
+
+  background-image: linear-gradient(to bottom, rgb(0, 0, 0, 100), rgb(0, 0, 0, 0));
+
+  ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1em 0;
+  }
+
+  li {
+    margin: 0 3em;
+  }
+
+  li a {
+    text-decoration: none;
+    color: whitesmoke;
+  }
+
+  li a::after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 2px;
+    width: 0;
+    background: transparent;
+    transition: all ease-in-out 250ms;
+  }
+
+  li a:hover::after {
+    width: 100%;
+    background: whitesmoke;
+  }
+
+  li:first-child {
+    margin-right: auto;
+    margin-left: 3em;
+  }
+
+}
+
