@@ -4,17 +4,15 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex-grow: 1;
-
-    width: 100vw;
 
 }
 
 .constellations {
-    
+
     background-image: url("./assets/constellations.jpg");
     background-size: cover;
 
     width: 100%;
+
 
 }
