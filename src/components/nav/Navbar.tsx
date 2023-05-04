@@ -5,8 +5,8 @@ export default function Navbar() {
 
     return (
         <div id={"navbar"}>
+            <img src={logo} alt={"logo"} className={"logo"}/>
             <ul>
-                <li><img src={logo} alt={"logo"} className={"logo"}/></li>
                 <li><a href={'#'}>Home</a></li>
                 <li><a href={'#'}>Technologies</a></li>
                 <li><a href={'#'}>Experience</a></li>
