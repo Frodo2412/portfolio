@@ -17,7 +17,7 @@ const jobs: Job[] = [
         companyLogo: "https://scontent.fmvd4-1.fna.fbcdn.net/v/t39.30808-6/290947282_10158924207809010_6569349691020242163_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=rliXz--m14UAX9KY9F5&_nc_ht=scontent.fmvd4-1.fna&oh=00_AfBJNMwEYjHC9moRKvbajVk5_k4LTy1L_lIvrQ2uthDMKQ&oe=6459430E",
         date: "Feb. 2023 - Present",
         activities: [
-            "Develop and maintain functionalities for Disney Streaming Services using the Typelevel stack",
+            "Develop and maintain high performance microservices utilizing the Typelevel stack",
             "Help coworkers advance their Scala knowledge and expertise via pairgramming, presentations and recommendation of training resources",
             "Participated in the design and development of CI/CD pipelines, leveraging Jenkins to enforce quality gates and automate the deployment of applications to AWS"
         ]
