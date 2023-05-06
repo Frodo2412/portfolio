@@ -34,10 +34,20 @@ const JobCard = ({title, link, company, companyLogo, date, activities}: Job) => 
 
 }
 
+function Header() {
+    return (
+
+        <div className={"flex flex-row justify-center items-center bg-zinc-900"}>
+            <h1 className="text-6xl font-bold text-white text-center bg-transparent m-10">Where I've worked</h1>
+        </div>
+
+    )
+}
+
 export default function Experience() {
     return (
         <div className={"flex flex-col justify-around content-around text-lg w-full"}>
-            <h1 className="text-6xl font-bold text-white text-center bg-transparent m-10">Where I've worked</h1>
+            <Header/>
             <div className={"flex flex-row justify-center content-center text-black bg-white dark:bg-gray-900 p-10"}>
                 <ol className={"relative border-l border-gray-200 dark:border-gray-700 max-w-5xl"}>
                     {jobs.map((job) =>

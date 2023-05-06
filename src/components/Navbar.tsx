@@ -37,12 +37,12 @@ function Icon() {
 
 }
 
-export default function Navbar() {
+export default function Navbar(props: { className: string }) {
 
     return (
         <div
-            className={"pl-10 pt-5 flex justify-between " +
-                "items-center bg-gradient-to-b from-black to-transparent text-lg"}
+            className={"pl-10 pt-5 flex justify-between items-center  "
+                + props.className}
         >
             <Icon/>
             <ul className={"flex flex-1 justify-around items-center h-auto"}>
