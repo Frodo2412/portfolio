@@ -1,15 +1,7 @@
-interface Job {
+import Job from "../model/Job.ts";
 
-    title: string;
-    link: string;
-    company: string;
-    companyLogo: string;
-    date: string;
-    activities: string[];
 
-}
-
-const jobs: Job[] = [
+export const jobs: Job[] = [
     {
         title: "Specialist Engineer",
         link: "https://www.globant.com/",
@@ -37,6 +29,3 @@ const jobs: Job[] = [
         ]
     }
 ]
-
-export type {Job};
-export {jobs};

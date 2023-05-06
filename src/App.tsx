@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar.tsx";
 import Hero from "./components/Hero.tsx";
 import Experience from "./components/Experience.tsx";
 import {useState} from "react";
+import Skills from "./components/Skills.tsx";
 
 function SunIcon() {
     return (
@@ -35,7 +36,10 @@ function App() {
             <div className={"constellations"}>
                 <div className={"flex flex-row bg-gradient-to-b from-black to-transparent text-lg p-5"}>
                     <Navbar className={"flex-1"}/>
-                    <button className={"flex items-center justify-center"} onClick={() => setDarkMode(!darkMode)}>
+                    <button
+                        className={"flex items-center justify-center"}
+                        onClick={() => setDarkMode(!darkMode)}
+                    >
                         {darkMode ? <SunIcon/> : <MoonIcon/>}
                     </button>
                 </div>
@@ -44,7 +48,7 @@ function App() {
 
             <Experience/>
 
-            <div>Technologies/Stacks</div>
+            <Skills/>
             <div>Contact Me</div>
         </main>
     )

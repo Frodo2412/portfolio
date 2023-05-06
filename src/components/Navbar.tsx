@@ -40,10 +40,7 @@ function Icon() {
 export default function Navbar(props: { className: string }) {
 
     return (
-        <div
-            className={"flex justify-between items-center  "
-                + props.className}
-        >
+        <div className={"flex justify-between items-center " + props.className}>
             <Icon/>
             <ul className={"flex flex-1 justify-around items-center h-auto"}>
                 <NavLink href={"#"} text={"Home"}/>

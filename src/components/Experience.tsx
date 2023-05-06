@@ -1,4 +1,5 @@
-import {Job, jobs} from "../data/Jobs.ts";
+import Job from "../model/Job.ts";
+import {jobs} from "../data/Jobs.ts";
 
 const JobCard = ({title, link, company, companyLogo, date, activities}: Job) => {
 
