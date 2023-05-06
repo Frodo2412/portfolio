@@ -41,7 +41,7 @@ export default function Navbar(props: { className: string }) {
 
     return (
         <div
-            className={"pl-10 pt-5 flex justify-between items-center  "
+            className={"flex justify-between items-center  "
                 + props.className}
         >
             <Icon/>
