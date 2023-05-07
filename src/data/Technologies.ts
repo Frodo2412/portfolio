@@ -18,19 +18,19 @@ const scalaKnown: Language = {
         {
             name: "Http4s",
             link: "https://http4s.org/",
-            logo: "https://http4s.org/img/http4s-logo.svg",
+            logo: "https://http4s.org/images/http4s-logo.svg"
         }, {
             name: "Doobie",
             link: "https://tpolecat.github.io/doobie/",
-            logo: "https://tpolecat.github.io/doobie-0.13.4/assets/img/doobie-logo.svg",
+            logo: "https://cdn.rawgit.com/tpolecat/doobie/series/0.5.x/doobie_logo.svg",
         }, {
             name: "Circe",
             link: "https://circe.github.io/circe/",
-            logo: "https://circe.github.io/circe/img/circe-logo.svg",
+            logo: "https://avatars.githubusercontent.com/u/23644473?v=4",
         }, {
             name: "Fs2",
             link: "https://fs2.io/",
-            logo: "https://fs2.io/img/fs2-logo.svg",
+            logo: "https://fs2.io/_media/logo.png",
         }
     ]
 }
@@ -58,7 +58,7 @@ const typescriptLearning: Language = {
         {
             name: "Next.js",
             link: "https://nextjs.org/",
-            logo: "https://cdn.worldvectorlogo.com/logos/nextjs-3.svg",
+            logo: "https://www.svgrepo.com/show/354113/nextjs-icon.svg",
         }
     ]
 }
@@ -73,7 +73,7 @@ const scalaWantToLearn: Language = {
         {
             name: "ZIO",
             link: "https://zio.dev/",
-            logo: "https://zio.dev/img/zio-logo.svg",
+            logo: "https://raw.githubusercontent.com/aparo/awesome-zio/master/awesome-zio.png",
         }
     ]
 }
