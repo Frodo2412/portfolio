@@ -48,7 +48,39 @@ const typescriptKnown: Language = {
     ]
 }
 
-export const knownTechnologies: Language[] = [scalaKnown, typescriptKnown]
+const databaseKnown: Language = {
+    name: "Databases",
+    logo: "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sql/sql.png",
+    link: "#",
+    technologies: [
+        {
+            name: "PostgreSQL",
+            link: "https://www.postgresql.org/",
+            logo: "https://cdn.worldvectorlogo.com/logos/postgresql.svg",
+        },
+        {
+            name: "MySQL",
+            link: "https://www.mysql.com/",
+            logo: "https://cdn.worldvectorlogo.com/logos/mysql-6.svg",
+        }
+    ]
+}
+
+export const knownTechnologies: Language[] = [scalaKnown, typescriptKnown, databaseKnown]
+
+const scalaLearning: Language = {
+    name: "Scala",
+    logo: "https://cdn.worldvectorlogo.com/logos/scala-4.svg",
+    link: "https://www.scala-lang.org/",
+    technologies: [
+        {
+            name: "Spark",
+            link: "https://spark.apache.org/",
+            logo: "https://spark.apache.org/images/spark-logo-trademark.png",
+        }
+    ]
+
+}
 
 const typescriptLearning: Language = {
     name: "Typescript",
@@ -63,7 +95,20 @@ const typescriptLearning: Language = {
     ]
 }
 
-export const learningTechnologies: Language[] = [typescriptLearning]
+const databaseLearning: Language = {
+    name: "Databases",
+    logo: "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sql/sql.png",
+    link: "#",
+    technologies: [
+        {
+            name: "MongoDB",
+            link: "https://www.mongodb.com/",
+            logo: "https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg",
+        }
+    ]
+}
+
+export const learningTechnologies: Language[] = [scalaLearning, typescriptLearning, databaseLearning]
 
 const scalaWantToLearn: Language = {
     name: "Scala",
