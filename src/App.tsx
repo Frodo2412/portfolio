@@ -4,6 +4,7 @@ import Hero from "./components/Hero.tsx";
 import Experience from "./components/Experience.tsx";
 import {useState} from "react";
 import Skills from "./components/Skills.tsx";
+import Contact from "./components/Contact.tsx";
 
 function SunIcon() {
     return (
@@ -50,7 +51,8 @@ function App() {
             <Experience/>
 
             <Skills/>
-            <div>Contact Me</div>
+            <Contact/>
+
         </main>
     )
 }
