@@ -4,7 +4,7 @@ import Experience from "./components/Experience.tsx";
 import {useState} from "react";
 import Skills from "./components/Skills.tsx";
 import Contact from "./components/Contact.tsx";
-import background from "./assets/background.png";
+import background from "./assets/constellations.jpg";
 
 function SunIcon() {
     return (
@@ -36,7 +36,7 @@ function App() {
     return (
         <main className={darkMode ? "bg-gray-900 dark" : "bg-white"}>
 
-            <div className={"w-full bg-contain"} style={{backgroundImage: `url(${background})`}}>
+            <div className={"w-full bg-cover"} style={{backgroundImage: `url(${background})`}}>
                 <div className={"flex flex-row bg-gradient-to-b from-black to-transparent text-lg p-5 pr-10"}>
                     <Navbar className={"flex-1"}/>
                     <button className={"flex items-center justify-center"} onClick={toggleDarkMode}>
