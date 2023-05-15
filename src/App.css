@@ -9,7 +9,7 @@ main {
 
 .constellations {
 
-    background-image: url("./assets/constellations.jpg");
+    background-image: url("../public/assets/constellations.jpg");
     background-size: cover;
 
     width: 100%;
