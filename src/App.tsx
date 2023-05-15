@@ -1,10 +1,10 @@
-import './App.css'
 import Navbar from "./components/Navbar.tsx";
 import Hero from "./components/Hero.tsx";
 import Experience from "./components/Experience.tsx";
 import {useState} from "react";
 import Skills from "./components/Skills.tsx";
 import Contact from "./components/Contact.tsx";
+import background from "./assets/background.png";
 
 function SunIcon() {
     return (
@@ -31,14 +31,12 @@ function App() {
 
     const [darkMode, setDarkMode] = useState(false)
 
-    const toggleDarkMode = () => {
-        setDarkMode(isDarkMode => !isDarkMode)
-    }
+    const toggleDarkMode = () => setDarkMode(isDarkMode => !isDarkMode)
 
     return (
         <main className={darkMode ? "bg-gray-900 dark" : "bg-white"}>
 
-            <div className={"constellations"}>
+            <div className={"w-full bg-contain"} style={{backgroundImage: `url(${background})`}}>
                 <div className={"flex flex-row bg-gradient-to-b from-black to-transparent text-lg p-5 pr-10"}>
                     <Navbar className={"flex-1"}/>
                     <button className={"flex items-center justify-center"} onClick={toggleDarkMode}>
