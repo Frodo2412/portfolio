@@ -37,7 +37,7 @@ function App() {
         <main className={darkMode ? "bg-gray-900 dark" : "bg-white"}>
 
             <div className={"w-full bg-cover"} style={{backgroundImage: `url(${background})`}}>
-                <div className={"flex flex-row bg-gradient-to-b from-black to-transparent text-lg p-5 pr-10"}>
+                <div className={"flex flex-row bg-gradient-to-b from-black to-transparent text-lg text-white p-5 pr-10"}>
                     <Navbar className={"flex-1"}/>
                     <button className={"flex items-center justify-center"} onClick={toggleDarkMode}>
                         {darkMode ? <SunIcon/> : <MoonIcon/>}
