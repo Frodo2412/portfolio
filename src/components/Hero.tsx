@@ -1,7 +1,7 @@
 export default function Hero() {
 
     return (
-        <div className={"w-full min-h-10 flex items-center justify-center p-20"}>
+        <div className={"w-full min-h-10 flex items-center justify-center p-20 text-white"}>
             <div className={"flex bg-slate-900/50 p-10 max-w-6xl md:flex-row flex-col"}>
                 <p className={"hidden md:block text-6xl text-right max-w-5xl animate-fadeRight"}>
                     Do you want to build <strong>efficient</strong> software that <strong>scales</strong>?

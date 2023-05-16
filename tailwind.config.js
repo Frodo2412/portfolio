@@ -6,6 +6,9 @@ export default {
         "./src/**/*.{js,ts,jsx,tsx}",
     ],
     theme: {
+        font: {
+            sans: ["Inter", "sans-serif"],
+        },
         extend: {
             animation: {
                 expand: 'expand 2s ease-in-out',
